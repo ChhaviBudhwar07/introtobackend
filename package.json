@@ -1,0 +1,30 @@
+{
+  "name": "introtobackend",
+  "version": "1.0.0",
+  "description": "A tutorial for intro to backend",
+  "homepage": "https://github.com/ChhaviBudhwar07/introtobackend#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "mongoose": "^9.11.4"
+  },
+  "bugs": {
+    "url": "https://github.com/ChhaviBudhwar07/introtobackend/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChhaviBudhwar07/introtobackend.git"
+  },
+  "license": "ISC",
+  "author": "Chhavi Budhwar",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "dev": "nodemon backend/src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
+}
